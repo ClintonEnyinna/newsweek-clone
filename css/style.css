@@ -1,0 +1,84 @@
+.logo {
+  width: 396px;
+  height: 60px;
+  background-color: #f72210;
+}
+
+.top {
+  height: 95px;
+  padding: 20px 10px 15px;
+  color: white;
+  background-color: #f72210;
+}
+
+.date {
+  height: 34px;
+  line-height: 34px;
+  margin-left: 20px;
+}
+
+.validate {
+  height: 26px;
+  line-height: 14px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.sign-in {
+  color: white;
+  padding: 6px 12px;
+}
+
+.subscribe {
+  width: 138px;
+  padding: 6px 10px;
+  color: #f72210;
+}
+
+.form{
+  position: absolute;
+  right: 79px;
+  top: 0;
+}
+
+#search{
+  width: 61px;
+  height: 54px;
+  border: none;
+  padding: 0;
+}
+
+.bottom::before{
+  position: absolute;
+  width: 78px;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.search-icon{
+  background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-content {
+  padding: 7px 160px 7px 0;
+}
+
+.angle-bracket{
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1247px;
+  }
+}
