@@ -1,3 +1,7 @@
+.cover {
+  background-color: #f4f5f6;
+}
+
 .logo {
   width: 396px;
   height: 60px;
@@ -35,20 +39,24 @@
   color: #f72210;
 }
 
-.form{
+.form {
   position: absolute;
   right: 79px;
   top: 0;
 }
 
-#search{
+#search {
   width: 61px;
-  height: 54px;
+  height: 50px;
   border: none;
   padding: 0;
 }
 
-.bottom::before{
+.bottom {
+  background-color: #fff;
+}
+
+.bottom::before {
   position: absolute;
   width: 78px;
   top: 0;
@@ -60,7 +68,7 @@
   border-top: 13px solid #f72210;
 }
 
-.search-icon{
+.search-icon {
   background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center/contain no-repeat white;
   width: 20px;
   height: 20px;
@@ -70,15 +78,67 @@
   padding: 7px 160px 7px 0;
 }
 
-.angle-bracket{
+.angle-bracket {
   width: 8px;
   height: 14px;
   margin-left: 10px;
   margin-bottom: 5px;
 }
 
+.title{
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(3,3,3,.4);
+  font-weight: 700;
+}
+li a.nav-link{
+  color: black;
+  font-size: 19px;
+}
+
+/*Main*/
+
+main.container-fluid {
+  padding: 20px 30px 0;
+  background-color: #fff;
+}
+
+h5.card-title a {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+h5.card-title a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.more-stories img,
+.latest-news img,
+.img-135 {
+  width: 135px;
+}
+
+.culture{
+  background-color: #f4f5f6;
+}
+
+.culture .card-body{
+  background-color: #f4f5f6;
+}
+
+.opinion a.test{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
 @media (min-width: 1200px) {
   .container-fluid {
-    max-width: 1247px;
+    max-width: 1310px;
   }
 }
