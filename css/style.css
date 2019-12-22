@@ -1,11 +1,25 @@
-.cover {
-  background-color: #f4f5f6;
+a {
+  color: black !important;
+}
+
+.bottom a:hover,
+.opinion a:hover,
+.latest-news a:hover,
+.subscribe,
+.usa .col-4:nth-child(3) a:hover,
+.world .col-4:nth-child(3) a:hover,
+.business .col-4:nth-child(3) a:hover,
+.tech .col-4:nth-child(3) a:hover,
+.sports .col-4:nth-child(3) a:hover,
+.culture-section .col-4:nth-child(3) a:hover {
+  color: #f72210 !important;
 }
 
 .logo {
   width: 396px;
   height: 60px;
   background-color: #f72210;
+  margin-left: 70px;
 }
 
 .top {
@@ -28,15 +42,8 @@
   font-size: 18px;
 }
 
-.sign-in {
-  color: white;
-  padding: 6px 12px;
-}
-
 .subscribe {
   width: 138px;
-  padding: 6px 10px;
-  color: #f72210;
 }
 
 .form {
@@ -47,9 +54,8 @@
 
 #search {
   width: 61px;
-  height: 50px;
-  border: none;
-  padding: 0;
+  height: 46px;
+  outline: none;
 }
 
 .bottom {
@@ -82,37 +88,22 @@
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  margin-bottom: 5px;
-}
-
-.title{
-  font-size: 16px;
-  line-height: 16px;
-  color: rgba(3,3,3,.4);
-  font-weight: 700;
-}
-li a.nav-link{
-  color: black;
-  font-size: 19px;
 }
 
 /*Main*/
-
-main.container-fluid {
-  padding: 20px 30px 0;
-  background-color: #fff;
-}
-
 h5.card-title a {
-  color: black;
   font-size: 22px;
   font-weight: 700;
   line-height: 25px;
-  text-decoration: none;
 }
 
-h5.card-title a:hover {
-  color: black;
+h5.card-title a:hover,
+.more-stories a:hover,
+.magazine a:hover,
+.slideshows a:hover,
+.editors-pick a:hover,
+.usa a:hover,
+.world a:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
 }
@@ -123,18 +114,56 @@ h5.card-title a:hover {
   width: 135px;
 }
 
-.culture{
+.cover,
+.culture,
+.culture .card-body {
   background-color: #f4f5f6;
 }
 
-.culture .card-body{
-  background-color: #f4f5f6;
-}
-
-.opinion a.test{
+.opinion a,
+.more-stories a,
+.latest-news a {
+  display: block;
   font-size: 15px;
   font-weight: bold;
-  line-height: 21px;
+  line-height: 20px;
+}
+
+.opinion h6.card-text {
+  font-size: 13px;
+}
+
+.btn-culture {
+  background-color: #c2d4d7;
+}
+
+.N-icon{
+  position: relative;
+  width: 29px;
+  height: 28px;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+}
+
+.magazine .col-4 span:first-of-type,
+.magazine .col-3 span:first-of-type{
+  background-color: #f72210;
+}
+
+.magazine .col-4 span:last-of-type,
+.magazine .col-3 span:last-of-type{
+  color: #f72210;
+}
+
+.slideshows .N-icon:after{
+  content: "";
+  display: block;
+  width: 26px;
+  height: 25px;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
 }
 
 @media (min-width: 1200px) {
