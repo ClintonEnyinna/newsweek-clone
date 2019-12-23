@@ -12,28 +12,21 @@ a {
 .tech .col-4:nth-child(3) a:hover,
 .sports .col-4:nth-child(3) a:hover,
 .culture-section .col-4:nth-child(3) a:hover,
-.topic a {
+.topic a,
+.magazine .col-md-4 span:last-of-type,
+.magazine .col-md-3 span:last-of-type,
+.categories a,
+.slides {
   color: #f72210 !important;
 }
 
 .logo {
-  width: 396px;
   height: 60px;
-  background-color: #f72210;
-  margin-left: 70px;
-}
-
-.top {
-  height: 95px;
-  padding: 20px 10px 15px;
-  color: white;
-  background-color: #f72210;
 }
 
 .date {
   height: 34px;
   line-height: 34px;
-  margin-left: 20px;
 }
 
 .validate {
@@ -57,10 +50,6 @@ a {
   width: 61px;
   height: 46px;
   outline: none;
-}
-
-.bottom {
-  background-color: #fff;
 }
 
 .bottom::before {
@@ -118,7 +107,7 @@ h5.card-title a:hover,
 .more-stories img,
 .latest-news img,
 .img-135 {
-  width: 135px;
+  width: 100%;
 }
 
 .cover,
@@ -157,14 +146,10 @@ h5.card-title a:hover,
   background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
 }
 
-.magazine .col-4 span:first-of-type,
-.magazine .col-3 span:first-of-type {
+.magazine .col-md-4 span:first-of-type,
+.magazine .col-md-3 span:first-of-type,
+.bg-red {
   background-color: #f72210;
-}
-
-.magazine .col-4 span:last-of-type,
-.magazine .col-3 span:last-of-type {
-  color: #f72210;
 }
 
 .slideshows .N-icon:after {
@@ -203,8 +188,57 @@ h5.card-title a:hover,
   height: 36px;
 }
 
+.categories{
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.slides{
+  width: 70px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url('https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png') center center/cover no-repeat;
+}
+
+.categories,
+.slides {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.hamburger {
+  width: 76px;
+  margin: auto;
+}
+
+.hamburger span{
+  display: block;
+  background-color: #fb9a94;
+  width: 30px;
+  height: 4px;
+  margin: 4px auto;
+}
+
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  content: "";
+  width: 30px;
+  background-color: #fb9a94;
+  height: 4px;
+  margin: 0 auto;
+}
+
 @media (min-width: 1200px) {
   .container-fluid {
     max-width: 1310px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    height: 20px;
   }
 }
