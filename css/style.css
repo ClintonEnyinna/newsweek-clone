@@ -2,9 +2,70 @@ a {
   color: black !important;
 }
 
+.topic a {
+  color: #f72210 !important;
+}
+
+.categories a {
+  color: #f72210 !important;
+}
+
+.opinion a,
+.more-stories a,
+.latest-news a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+h5.card-title a {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
 .bottom a:hover,
 .opinion a:hover,
-.latest-news a:hover,
+.latest-news a:hover {
+  color: #f72210 !important;
+}
+
+.more-stories a:hover,
+.magazine a:hover,
+.slideshows a:hover,
+.editors-pick a:hover,
+.usa a:hover,
+.world a:hover,
+.business a:hover,
+.tech a:hover,
+.culture-section a:hover,
+.sports a:hover,
+h5.card-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.usa .col-4:nth-child(3) a,
+.world .col-4:nth-child(3) a,
+.culture-section .col-4:nth-child(3) a,
+.sports .col-4:nth-child(3) a,
+.business .col-4:nth-child(3) a,
+.tech .col-4:nth-child(3) a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.hamburger span {
+  display: block;
+  background-color: #fb9a94;
+  width: 30px;
+  height: 4px;
+  margin: 4px auto;
+}
+
 .subscribe,
 .usa .col-4:nth-child(3) a:hover,
 .world .col-4:nth-child(3) a:hover,
@@ -12,10 +73,8 @@ a {
 .tech .col-4:nth-child(3) a:hover,
 .sports .col-4:nth-child(3) a:hover,
 .culture-section .col-4:nth-child(3) a:hover,
-.topic a,
 .magazine .col-md-4 span:last-of-type,
 .magazine .col-md-3 span:last-of-type,
-.categories a,
 .slides {
   color: #f72210 !important;
 }
@@ -80,30 +139,6 @@ a {
   margin-left: 10px;
 }
 
-
-/*Main*/
-
-h5.card-title a {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 25px;
-}
-
-h5.card-title a:hover,
-.more-stories a:hover,
-.magazine a:hover,
-.slideshows a:hover,
-.editors-pick a:hover,
-.usa a:hover,
-.world a:hover,
-.business a:hover,
-.tech a:hover,
-.culture-section a:hover,
-.sports a:hover {
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
 .more-stories img,
 .latest-news img,
 .img-135 {
@@ -114,21 +149,6 @@ h5.card-title a:hover,
 .culture,
 .culture .card-body {
   background-color: #f4f5f6;
-}
-
-.opinion a,
-.more-stories a,
-.latest-news a,
-.usa .col-4:nth-child(3) a,
-.world .col-4:nth-child(3) a,
-.culture-section .col-4:nth-child(3) a,
-.sports .col-4:nth-child(3) a,
-.business .col-4:nth-child(3) a,
-.tech .col-4:nth-child(3) a {
-  display: block;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 20px;
 }
 
 .opinion h6.card-text {
@@ -152,7 +172,7 @@ h5.card-title a:hover,
   background-color: #f72210;
 }
 
-.slideshows .N-icon:after {
+.slideshows .N-icon::after {
   content: "";
   display: block;
   width: 26px;
@@ -188,11 +208,11 @@ h5.card-title a:hover,
   height: 36px;
 }
 
-.categories{
-  background-color: rgba(255, 255, 255, .9);
+.categories {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.slides{
+.slides {
   width: 70px;
   height: 52px;
   font-size: 18px;
@@ -211,14 +231,6 @@ h5.card-title a:hover,
 .hamburger {
   width: 76px;
   margin: auto;
-}
-
-.hamburger span{
-  display: block;
-  background-color: #fb9a94;
-  width: 30px;
-  height: 4px;
-  margin: 4px auto;
 }
 
 .hamburger::before,
