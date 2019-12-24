@@ -1,4 +1,3 @@
-# newsweek-clone
 <h1 align="center">News Week Clone</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
@@ -24,7 +23,7 @@
 
 ## 🏠 [Homepage](https://github.com/ClintonEnyinna/heatmap-smashing-magazine)
 
-## ⭐️ [Live demo](https://rawcdn.githack.com/ClintonEnyinna/heatmap-smashing-magazine/0f4a1789d35ef96aa600f945805496e5e6302e37/index.html)
+## ⭐️ [Live demo](https://rawcdn.githack.com/ClintonEnyinna/newsweek-clone/802916399dba79b30952f9312b455317d3ff5384/index.html)
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/54779750/71385674-7bd03000-25ae-11ea-9e57-1abfed568d61.png)
