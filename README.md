@@ -12,7 +12,7 @@
 
 ## Description of the project 
 
->This is a clone of the NEWSWEEK web page with mainly boostrap 4.4 and some css. 
+>This is a clone of the NEWSWEEK web page with mainly boostrap and some css. 
 
 ## Built with
 <ul>
