@@ -23,7 +23,7 @@
 
 ## 🏠 [Homepage](https://github.com/ClintonEnyinna/heatmap-smashing-magazine)
 
-## ⭐️ [Live demo](https://rawcdn.githack.com/ClintonEnyinna/newsweek-clone/802916399dba79b30952f9312b455317d3ff5384/index.html)
+## ⭐️ [Live demo](https://raw.githack.com/ClintonEnyinna/newsweek-clone/feature-branch/index.html)
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/54779750/71385674-7bd03000-25ae-11ea-9e57-1abfed568d61.png)
