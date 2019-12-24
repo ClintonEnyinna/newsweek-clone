@@ -1,0 +1,262 @@
+a {
+  color: black !important;
+}
+
+.topic a {
+  color: #f72210 !important;
+}
+
+.categories a {
+  color: #f72210 !important;
+}
+
+.opinion a,
+.more-stories a,
+.latest-news a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+h5.card-title a {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.bottom a:hover,
+.opinion a:hover,
+.latest-news a:hover {
+  color: #f72210 !important;
+}
+
+.more-stories a:hover,
+.magazine a:hover,
+.slideshows a:hover,
+.editors-pick a:hover,
+.usa a:hover,
+.world a:hover,
+.business a:hover,
+.tech a:hover,
+.culture-section a:hover,
+.sports a:hover,
+h5.card-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.usa .col-4:nth-child(3) a,
+.world .col-4:nth-child(3) a,
+.culture-section .col-4:nth-child(3) a,
+.sports .col-4:nth-child(3) a,
+.business .col-4:nth-child(3) a,
+.tech .col-4:nth-child(3) a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.hamburger span {
+  display: block;
+  background-color: #fb9a94;
+  width: 30px;
+  height: 4px;
+  margin: 4px auto;
+}
+
+.subscribe,
+.usa .col-4:nth-child(3) a:hover,
+.world .col-4:nth-child(3) a:hover,
+.business .col-4:nth-child(3) a:hover,
+.tech .col-4:nth-child(3) a:hover,
+.sports .col-4:nth-child(3) a:hover,
+.culture-section .col-4:nth-child(3) a:hover,
+.magazine .col-md-4 span:last-of-type,
+.magazine .col-md-3 span:last-of-type,
+.slides {
+  color: #f72210 !important;
+}
+
+.logo {
+  height: 60px;
+}
+
+.date {
+  height: 34px;
+  line-height: 34px;
+}
+
+.validate {
+  height: 26px;
+  line-height: 14px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.subscribe {
+  width: 138px;
+}
+
+.form {
+  position: absolute;
+  right: 79px;
+  top: 0;
+}
+
+#search {
+  width: 61px;
+  height: 46px;
+  outline: none;
+}
+
+.bottom::before {
+  position: absolute;
+  width: 78px;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.search-icon {
+  background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-content {
+  padding: 7px 160px 7px 0;
+}
+
+.angle-bracket {
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.more-stories img,
+.latest-news img,
+.img-135 {
+  width: 100%;
+}
+
+.cover,
+.culture,
+.culture .card-body {
+  background-color: #f4f5f6;
+}
+
+.opinion h6.card-text {
+  font-size: 13px;
+}
+
+.btn-culture {
+  background-color: #c2d4d7;
+}
+
+.N-icon {
+  position: relative;
+  width: 29px;
+  height: 28px;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+}
+
+.magazine .col-md-4 span:first-of-type,
+.magazine .col-md-3 span:first-of-type,
+.bg-red {
+  background-color: #f72210;
+}
+
+.slideshows .N-icon::after {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 25px;
+  border-right: 3px solid red;
+  border-bottom: 3px solid red;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.subscribe-section .right {
+  background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5') center center/cover no-repeat;
+}
+
+.img-back {
+  position: relative;
+  left: 20px;
+}
+
+.img-front {
+  position: absolute;
+  top: 13px;
+  left: 100px;
+}
+
+.subscribe-section .col-12 {
+  background-color: #f4f5f6;
+}
+
+.footer-logo {
+  width: 236px;
+  height: 36px;
+}
+
+.categories {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.slides {
+  width: 70px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url('https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png') center center/cover no-repeat;
+}
+
+.categories,
+.slides {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.hamburger {
+  width: 50px;
+  margin: auto;
+}
+
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  content: "";
+  width: 30px;
+  background-color: #fb9a94;
+  height: 4px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1310px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  main.pt-5 {
+    margin-top: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    height: 20px;
+  }
+}
