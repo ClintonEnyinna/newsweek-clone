@@ -21,7 +21,7 @@
   <li>CSS3</li>
 </ul>
 
-## 🏠 [Homepage](https://github.com/ClintonEnyinna/heatmap-smashing-magazine)
+## 🏠 [Homepage](https://github.com/ClintonEnyinna/newsweek-clone)
 
 ## ⭐️ [Live demo](https://raw.githack.com/ClintonEnyinna/newsweek-clone/feature-branch/index.html)
 
